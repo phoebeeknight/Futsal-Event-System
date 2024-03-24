@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>ADMIN : Sistem Latihan Industri</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="admin.html">SLi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="registerstudent.html">Register Student <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="liststudent.html">List Student</a>
+          </li>
+		 <li class="nav-item">
+            <a class="nav-link" href="registerindustry.html">Register Industry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="listindustry.html">List Industry</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="index.html">Log Out</a>
+          </li>
+        </ul>
+     </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>Register Student</h1>
+		<br>
+		
+		<div class="row">
+		
+		<div class="col-md-4">
+		
+			<div class="form-group">
+				<label for="name">Student Name:</label>
+				<input type="text" class="form-control" id="name">
+			</div>
+			
+			<div class="form-group">
+				<label for="studentid">Student ID:</label>
+				<input type="text" class="form-control" id="studentid">
+			</div>
+			
+		</div>
+		
+		<div class="col-md-4">	
+			
+			<div class="form-group">
+				<label for="password">Password:</label>
+				<input type="password" class="form-control" id="password">
+			</div>
+			
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email">
+			</div>					
+		
+		</div>
+		
+		<div class="col-md-4">
+		
+			<div class="form-group">
+			  <label for="faculty">Faculty:</label>
+			  <select class="form-control" id="faculty">
+				<option>FTMK</option>
+				<option>FTK</option>
+				<option>FKM</option>
+				<option>FKE</option>
+				<option>FKP</option>
+			  </select>
+			</div>
+			
+			<div class="form-group">
+				<label for="phone">Phone Number:</label>
+				<input type="text" class="form-control" id="phone">
+			</div>
+		
+		</div>
+		
+		</div>
+		
+		<a href="liststudent.html"><button type="button" class="btn btn-success">Add</button></a>
+		<a href="registerstudent.html"><button type="button" class="btn btn-danger">Cancel</button></a>
+		
+				
+      </div>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
